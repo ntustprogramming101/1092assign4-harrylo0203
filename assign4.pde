@@ -231,15 +231,15 @@ void draw() {
         
         if(soilHealth[i][j]>15){
           image(stones[0][(constrain(soilHealth[i][j],0,30)-16)/3],
-          i * SOIL_SIZE, j * SOIL_SIZE);
+          i * SOIL_SIZE, j * SOIL_SIZE,SOIL_SIZE,SOIL_SIZE);
         }
         
         if(soilHealth[i][j]>30){
-          image(stones[1][(soilHealth[i][j]-31)/3],i * SOIL_SIZE, j * SOIL_SIZE);
+          image(stones[1][(soilHealth[i][j]-31)/3],i * SOIL_SIZE, j * SOIL_SIZE,SOIL_SIZE,SOIL_SIZE);
         }
         
         if(soilHealth[i][j]<=0){
-          image(soilEmpty,i * SOIL_SIZE, j * SOIL_SIZE);
+          image(soilEmpty,i * SOIL_SIZE, j * SOIL_SIZE,SOIL_SIZE,SOIL_SIZE);
         }
 			}
 		}
