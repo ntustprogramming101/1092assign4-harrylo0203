@@ -43,7 +43,7 @@ final int PLAYER_MAX_HEALTH = 5;
 int playerMoveDirection = 0;
 int playerMoveTimer = 0;
 int playerMoveDuration = 15;
-int width = 480;
+
 
 boolean demoMode = false;
 
