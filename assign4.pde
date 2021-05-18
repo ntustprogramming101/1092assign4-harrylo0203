@@ -218,6 +218,7 @@ void draw() {
 		rect(0, -GRASS_HEIGHT, width, GRASS_HEIGHT);
 
 		// Soil
+		print("test");
 
 		for(int i = 0; i < soilHealth.length; i++){
 			for (int j = 0; j < soilHealth[i].length; j++) {
